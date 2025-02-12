@@ -5,7 +5,7 @@
 
 
 
-Important Steps for Git Workflow
+## Important Steps for Git Workflow
 1. Initialize Repositry with git init
 2. Create changes to project files
 3. Check statu f those files with git status
