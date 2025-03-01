@@ -18,7 +18,7 @@ area_in_meters = calculate_area(length,width)
 area_in_sqfeet = square_meters_feet(area_in_meters)
 
 
-prompt(f'The length of your room is: {length} meters')
+print(f'The length of your room is: {length} meters')
 print(f'The width of your room is: {width} meters')
 print(f'The area of your room in meters is: {area_in_meters} square meters')
 print(f'The area of your room in square meters is:{square_meters_feet(area_in_meters)} square feet.')

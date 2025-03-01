@@ -14,18 +14,20 @@ def calculate_sum(num):
     for i in range (1, num + 1):
         total += i
     return total 
-    
 
-num = int(input(f'Enter a number greater than 0.  '))
+def prompt(message):
+    print(f'==> {message}')
+
+num = (int(input(f'Enter a number greater than 0.  ')))
 choice = input(f'Enter "s" to compute the sum, or "p" to compute the product. "')
 
 
 if choice == 's' or choice  == 'sum':
-    print(calculate_sum(num))
+    prompt(calculate_sum(num))
 elif choice  == 'p' or choice == 'product':
-    print(calculate_product(num))
+    prompt(calculate_product(num))
 else:
-    print(f'You did not reply with p/s.')
+    prompt(f'You did not reply with p/s.')
 
 
 
